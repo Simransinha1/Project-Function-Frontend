@@ -104,14 +104,37 @@ export default function HomePage() {
 
   return (
     <main className="container">
-      <header><h1>Welcome to the Metacrafters ATM!</h1></header>
-      {initUser()}
-      <style jsx>{`
-        .container {
-          text-align: center
-        }
-      `}
-      </style>
-    </main>
-  )
+  <header>
+    <h1>Welcome to the Metacrafters ATM!</h1>
+  </header>
+  {initUser()}
+  <style jsx>{`
+    .container {
+      text-align: center;
+      background-color: #f5f5f5; /* Light gray background */
+      padding: 20px;
+    }
+    h1 {
+      color: #1e90ff; /* Dodger blue heading color */
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #32cd32; /* Lime green button background */
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #228b22; /* Darker green on hover */
+    }
+  `}</style>
+</main>
+
+  
+  )
 }
