@@ -63,7 +63,7 @@ If you encounter any issues or have questions, feel free to reach out to the cre
 ## Authors
 
 - Original Template: MetacrafterChris
-- Creator: [Somanshu](mailto:21bcs3832@cuchd.in)
+- Creator: [Simran](mailto:21bcs3832@cuchd.in)
 
 ## License
 
